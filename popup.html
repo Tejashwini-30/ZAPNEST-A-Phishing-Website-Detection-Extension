@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Phishing URL Detector</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      text-align: center;
+      padding: 10px;
+    }
+    button {
+      background-color: #1976d2;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    #status {
+      margin-top: 12px;
+      font-weight: bold;
+      border-radius: 8px;
+      padding: 10px;
+    }
+    .safe {
+      background: #c8e6c9;
+      color: #2e7d32;
+    }
+    .phish {
+      background: #ffcdd2;
+      color: #c62828;
+    }
+  </style>
+</head>
+<body>
+  <h3>🔍 Phishing URL Detector</h3>
+  <button id="checkBtn">Check Current Site</button>
+  <div id="status">Click above to check this website</div>
+  <script src="popup.js"></script>
+</body>
+</html>
